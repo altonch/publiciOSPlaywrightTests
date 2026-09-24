@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>perfectoSupport</groupId>
+  <artifactId>playwrightTests</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+ 	<properties>
+		<playwright.Version>1.62.0</playwright.Version>
+		<maven-compiler-plugin-version>3.11.0</maven-compiler-plugin-version>
+		<maven.compiler.source>21</maven.compiler.source>
+		<maven.compiler.target>21</maven.compiler.target>
+	</properties>
+	<dependencies>
+		<dependency>
+    		<groupId>com.microsoft.playwright</groupId>
+    		<artifactId>playwright</artifactId>
+    		<version>${playwright.Version}</version>
+		</dependency>
+	</dependencies>
+	<repositories>
+	</repositories>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin-version}</version>
+				<configuration>
+			        <source>${maven.compiler.source}</source>
+        			<target>${maven.compiler.target}</target>
+        		</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

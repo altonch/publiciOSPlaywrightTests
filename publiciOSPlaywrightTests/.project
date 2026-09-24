@@ -10,8 +10,21 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>java/myUtilities/logins.java</name>
+			<type>1</type>
+			<location>/Users/CAlton/Library/CloudStorage/OneDrive-PERFORCESOFTWARE,INC/Documents/Security_Tokens/logins.java</location>
+		</link>
+	</linkedResources>
 </projectDescription>
