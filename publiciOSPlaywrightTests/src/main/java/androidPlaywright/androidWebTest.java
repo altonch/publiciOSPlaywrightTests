@@ -1,6 +1,6 @@
 // Created by Christopher Alton
-// Version 1.0
-// Updated 08-26-2025
+// Version 2.0
+// Updated 09-23-2026
 package androidPlaywright;
 
 //****** These are the JAVA dependencies required to run this test ******
